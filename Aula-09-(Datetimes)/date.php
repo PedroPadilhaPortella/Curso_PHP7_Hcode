@@ -3,12 +3,14 @@
 $dataAtual = date("d/m/Y H:i:s");
 echo "Data Atual: $dataAtual"; 
 //uso da função date, porém a função date não é sensivel ao setlocale, ele pega o timestamp atual
+
 $timestamp = time();
 echo "<br>Timestamp Atual:  $timestamp <br>"; //timestamp atual
 
 
-
-
+$ts = strtotime("2001-06-10");//converte a string para time(timestamp)
+$dataConvert = date("l d/m/Y", $ts);
+echo "<br>Data de Nascimento: $dataConvert<br>";
 
 
 
