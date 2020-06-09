@@ -10,9 +10,13 @@ echo "<br>Timestamp Atual:  $timestamp <br>"; //timestamp atual
 
 $ts = strtotime("2001-06-10");//converte a string para time(timestamp)
 $dataConvert = date("l d/m/Y", $ts);
-echo "<br>Data de Nascimento: $dataConvert<br>";
+echo "<br>Data de Nascimento: $dataConvert   --TimeStamp: $ts<br>";
+
+echo "<br>Data Atual com 'strtotime:' ", date("l, d/m/Y H:i:s", strtotime("now"));
 
 
+$strTime02 = strtotime("+1 year 3 days 4 hours 3 seconds");
+echo "<br>Data Daqui a 1 ano, tres dias, 4 horas e 3 segundos com 'strtotime:' ", date("l, d/m/Y H:i:s", $strTime02);
 
 
 /*
