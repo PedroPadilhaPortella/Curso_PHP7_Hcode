@@ -1,7 +1,10 @@
 <?php
 
-
-
+$dataAtual = date("d/m/Y H:i:s");
+echo "Data Atual: $dataAtual"; 
+//uso da função date, porém a função date não é sensivel ao setlocale, ele pega o timestamp atual
+$timestamp = time();
+echo "<br>Timestamp Atual:  $timestamp <br>"; //timestamp atual
 
 
 
