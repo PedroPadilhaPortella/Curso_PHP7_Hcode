@@ -2,33 +2,34 @@
 
 $diasemana = date("w");
 
+echo "<h2> Hoje é...<h2>";
 switch($diasemana){
 	case 0:
 	echo "domingo";
 	break;
 
 	case 1:
-	echo "segunda";
+	echo "segunda feira";
 	break;
 
 	case 2:
-	echo "terca";
+	echo "terca feira";
 	break;
 
 	case 3:
-	echo "quarta";
+	echo "quarta feira";
 	break;
 
 	case 4:
-	echo "quinta";
+	echo "quinta feira";
 	break;
 
 	case 5:
-	echo "sexta";
+	echo "sexta feira";
 	break;
 
 	case 6:
-	echo "sabado";
+	echo "sabado feira";
 	break;
 
 	default:

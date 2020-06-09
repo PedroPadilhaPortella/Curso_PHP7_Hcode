@@ -3,6 +3,8 @@
 require_once("config.php");
 
 echo $_SESSION["nome"];
+
+
 /*Funções para Sessão
 session_abort — Descarta as alterações no array da sessão e encerra a sessão
 session_cache_expire — Retorna o prazo do cache atual
