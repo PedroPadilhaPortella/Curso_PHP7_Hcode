@@ -1,7 +1,12 @@
 <?php
-
+header('Content-type: text/html; charset=iso-8859-1');//chatset
+header('Content-Type: text/html; charset=utf-8');//charset
 setlocale(LC_ALL, 'pt_BR', 'pt_br utf-8', 'Portuguese'); //config do setlocale
-strftime(format)
+
+date_default_timezone_set('America/Sao_Paulo');//define a timezone
+
+echo strftime("%A de %B de %Y");
+echo "<br><br>Horario atual: America/Sao_Paulo ->", strftime("%H:%M:%S");
 
 
 

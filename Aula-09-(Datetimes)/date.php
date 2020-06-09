@@ -1,5 +1,5 @@
 <?php
-
+date_default_timezone_set('America/Sao_Paulo');
 $dataAtual = date("d/m/Y H:i:s");
 echo "Data Atual: $dataAtual"; 
 //uso da função date, porém a função date não é sensivel ao setlocale, ele pega o timestamp atual
@@ -15,8 +15,8 @@ echo "<br>Data de Nascimento: $dataConvert   --TimeStamp: $ts<br>";
 echo "<br>Data Atual com 'strtotime:' ", date("l, d/m/Y H:i:s", strtotime("now"));
 
 
-$strTime02 = strtotime("+1 year 3 days 4 hours 3 seconds");
-echo "<br>Data Daqui a 1 ano, tres dias, 4 horas e 3 segundos com 'strtotime:' ", date("l, d/m/Y H:i:s", $strTime02);
+$strTime02 = strtotime("+1 year 3 days 4 hours 30 seconds");
+echo "<br>Data Daqui a 1 ano, tres dias, 4 horas e 30 segundos com 'strtotime:' ", date("l, d/m/Y H:i:s", $strTime02);
 
 
 /*
