@@ -40,5 +40,5 @@ class Carro {
 $gol = new Carro();
 $gol->setModelo("Gol GT");
 $gol->setAno(2001);
-$gol->setMotor('V8');
-print_r($gol);
+$gol->setMotor('1.6');
+var_dump($gol);
