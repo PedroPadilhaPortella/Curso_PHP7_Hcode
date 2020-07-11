@@ -32,7 +32,13 @@ class Carro {
     public function getAno(){
         return $this->ano;
     }
-    public function setAno(){
+    public function setAno($ano){
         $this->ano = $ano;
     }
 }
+
+$gol = new Carro();
+$gol->setModelo("Gol GT");
+$gol->setAno(2001);
+$gol->setMotor('V8');
+print_r($gol);
