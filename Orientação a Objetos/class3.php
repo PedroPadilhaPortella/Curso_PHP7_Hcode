@@ -55,4 +55,7 @@ class Documento{
 
 $cpf = new Documento();
 $cpf->setNumero('40575106808');
-var_dump($cpf);
+print_r($cpf);
+
+//Um método estático é chamado de forma diferente, além de poder ser acessado sem instanciar a classe
+var_dump(Documento::validarCPF('40575106808'));
