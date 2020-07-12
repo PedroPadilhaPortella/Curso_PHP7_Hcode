@@ -30,5 +30,22 @@ unset($loc01);
 
 
 /*
-Os nomes de função __construct(), __destruct(), __call(), __callStatic(), __get(), __set(), __isset(), __unset(), __sleep(), __wakeup(), __serialize(), __unserialize(), __toString(), __invoke(), __set_state(), __clone() e __debugInfo() são mágicos nas classes do PHP. Não deve-se ter funções com esses nomes em nenhuma de suas classes a não ser que queira a funcionalidade mágica associada a eles.
+Métodos Mágicos em PHP:
+__construct()
+__destruct()
+__call()
+__callStatic()
+__get()
+__set()
+__isset()
+__unset()
+__sleep()
+__wakeup()
+__serialize()
+__unserialize()
+__toString()
+__invoke()
+__set_state()
+__clone()
+__debugInfo()
 */
