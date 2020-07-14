@@ -3,9 +3,8 @@
 class Documento{
     private $numero;
 
-
     public static function validarCPF($cpf): bool{
-        if(empty($cpf)) {
+        if(empty($cpf)){
             return false;
         }
         $cpf = preg_match('/[0-9]/', $cpf)? $cpf : 0;

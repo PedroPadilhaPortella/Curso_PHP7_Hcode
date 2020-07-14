@@ -1,5 +1,5 @@
 <?php
-
+/*Metodos Mágicos, construtor, getters e seteters*/
 class Endereco{
     private $logradouro;
     private $numero;

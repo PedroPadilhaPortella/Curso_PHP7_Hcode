@@ -1,4 +1,5 @@
 <?php
+/*Declaração de uma classe*/
 
 class Pessoa {
 //atributos e métodos
@@ -7,8 +8,6 @@ class Pessoa {
     public function falar(){
         return "Meu nome é {$this->nome}";
     }
-
-
 }
 
 $claudio = new Pessoa();

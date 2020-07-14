@@ -1,4 +1,5 @@
 <?php
+//getters e setters e visibilidade
 
 class Carro {
 /*atributos privados*/
