@@ -97,7 +97,7 @@ class Usuario {
 
 		$sql = new Sql();
 
-		$results = $sql->select("CALL sp_usuarios_insert(:LOGIN, :PASSWORD)", array(
+		$results = $sql->select("CALL sp_usuario_insert(:LOGIN, :PASSWORD)", array(
 			':LOGIN'=>$this->getNome(),
 			':PASSWORD'=>$this->getSenha()
 		));
