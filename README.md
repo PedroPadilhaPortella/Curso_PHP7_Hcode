@@ -1,4 +1,4 @@
-# :computer: <a href="https://www.udemy.com/course/curso-php-7-online/"> Curso Completo de PHP <a/>
+# :computer: <a href="https://hcode.com.br/cursos/PHP7"> Curso Completo de PHP <a/>
 #### Torne-se um Desenvolvedor PHP, aprenda com dois especialistas a programar do básico ao avançado em um projeto completo. :computer:
 <img width="auto" src="https://github.com/PedroPadilhaPortella/PHP-Aulas-Hcode/blob/master/rdmc.jpg">
 
