@@ -1,6 +1,6 @@
 # :computer: Curso Completo de PHP 
 ### Curso Desenvolvimento Web Moderno com JavaScript! COMPLETO 2020 + Projetos
-<img width="auto" src="">
+<img width="auto" src="https://github.com/PedroPadilhaPortella/PHP-Aulas-Hcode/blob/master/rdmc.jpg">
 
 #### Torne-se um Desenvolvedor PHP, aprenda com dois especialistas a programar do básico ao avançado em um projeto completo. :computer:
 
