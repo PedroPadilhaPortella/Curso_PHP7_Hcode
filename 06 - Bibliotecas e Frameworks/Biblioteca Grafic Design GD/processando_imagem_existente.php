@@ -14,7 +14,9 @@ imagestring($image, 3, 440, 370, utf8_decode('Conclusão em ').date("d/m/Y"), $t
 header("Content-Type: image/jpeg");
 
 imagejpeg($image);
-imagejpeg($image, "certificado-".date("d-m-Y")."$nome.jpg", 100);
+imagejpeg($image, "images/certificado-01.jpg", 100);
 
 imagedestroy($image);
+
+//imagestring (arquivo, tamanho da fonte, eixo x, eixo y, texto, cor do texto);
 ?>
