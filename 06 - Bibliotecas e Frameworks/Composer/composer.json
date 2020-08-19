@@ -1,0 +1,9 @@
+{
+    "name": "pedro/composer",
+    "description": "primeira aula usando composer",
+    "type": "project",
+    "minimum-stability": "dev",
+    "require": {
+        "monolog/monolog": "1.0.*"
+    }
+}
