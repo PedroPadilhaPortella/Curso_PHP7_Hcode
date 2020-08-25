@@ -8,7 +8,7 @@
 <body>
     <form action="cadastrar.php" method="POST">
         <input type="email" name="inputEmail"><br>
-        <div class="g-recaptcha" data-sitekey="6Lf_2sIZAAAAACUcnZIyAwBSFBEpscjgciiXil0u"></div><br>
+        <div class="g-recaptcha" data-sitekey="insira a chave publica aqui"></div><br>
         <button type="submit">Enviar</button>
     </form>
 </body>
