@@ -10,10 +10,6 @@ if (!is_dir($pasta)) {
 echo "Diretorio '$pasta' criada";
 
 
-
-
-
-
 /*
 Permissões de 0 até 7
 
